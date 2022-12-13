@@ -1,6 +1,7 @@
 ﻿using Entities.Enums;
 
-namespace Entities.Tabuleiro
+
+namespace Entities.Tabuleiro2
 {
     internal class Peca
     {
@@ -9,9 +10,8 @@ namespace Entities.Tabuleiro
         public int QtdMovimentos { get; protected set; }
         public Tabuleiro Tab { get; protected set; }
 
-        public Peca(Posicao posicao, Cor cor, Tabuleiro tab)
+        public Peca(Cor cor, Tabuleiro tab)
         {
-            Posicao = posicao;
             Cor = cor;
             Tab = tab;
         }
