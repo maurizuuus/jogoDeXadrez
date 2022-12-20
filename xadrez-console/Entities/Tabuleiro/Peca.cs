@@ -16,5 +16,10 @@ namespace Entities.Tabuleiro2
             Tab = tab;
         }
 
+        public void IncrementarMovimentos()
+        {
+            QtdMovimentos++;
+        }
+
     }
 }
